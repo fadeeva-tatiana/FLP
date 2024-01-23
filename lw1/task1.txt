@@ -1,0 +1,4 @@
+main :: IO ()
+main = do
+ let enter = ((1, 'a'), "abc");
+ print(snd(fst enter))

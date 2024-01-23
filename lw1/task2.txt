@@ -1,0 +1,24 @@
+main :: IO ()
+main = do
+ let input1 = ['a', 'b', 'c'];
+ let getB1 el = head(tail el);
+ print(getB1 input1)
+
+main :: IO ()
+main = do
+ let input2 = [['a', 'b'], ['c', 'd']];
+ let getB2 el = head(tail(head el));
+ print(getB2 input2)
+
+main :: IO ()
+main = do
+ let input3 = [['a', 'c', 'd'], ['a', 'b']];
+ let getB3 el = head(tail(head(tail el)));
+ print(getB3 input3)
+
+main :: IO ()
+main = do
+ let input4 = [['a', 'd'], ['b', 'c']];
+ let getB4 el = head(head(tail el));
+ print(getB4 input4)
+

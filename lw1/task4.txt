@@ -1,0 +1,4 @@
+main :: IO ()
+main = do
+ let enter = [x*(x+1)/2| x<-[1..50]];
+ print enter

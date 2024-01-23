@@ -1,0 +1,13 @@
+main :: IO ()
+main = do
+ print([1, 3..20])
+
+main :: IO ()
+main = do
+ let start = 35;
+ let odds x = x +2;
+ print([start, odds start, start + 20])
+
+main :: IO ()
+main = do
+ print (filter odd [1..20])
